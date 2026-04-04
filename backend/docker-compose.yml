@@ -1,0 +1,20 @@
+services:
+  flask-backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+    volumes:
+      # Mount data directory from backend directory
+      - ./data:/app/data
+      # Mount environment file from project root
+      - ../.env:/app/.env:ro
+    restart: unless-stopped
+    networks:
+      - rice-catalog-network
+
+networks:
+  rice-catalog-network:
+    driver: bridge 

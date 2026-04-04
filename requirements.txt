@@ -1,0 +1,38 @@
+requests
+beautifulsoup4
+selenium
+pandas
+numpy
+streamlit
+sentence-transformers
+scikit-learn
+pickle-mixin
+python-dateutil
+typing-extensions
+openai
+python-dotenv
+anthropic
+networkx
+torch
+transformers
+matplotlib
+seaborn
+plotly
+xgboost
+lightgbm
+openai
+
+# WebSocket support
+channels==4.0.0
+channels-redis==4.1.0
+
+# Vector database
+faiss-cpu==1.7.4
+# OR chromadb==0.4.15  (alternative)
+
+# Enhanced embeddings
+sentence-transformers==2.2.2
+
+# Async support
+asyncio-mqtt==0.16.1
+websockets==11.0.2

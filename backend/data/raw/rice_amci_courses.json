@@ -1,0 +1,44 @@
+[
+  {
+    "course_code": "AMCI 238",
+    "title": "SPECIAL TOPICS",
+    "department": "AMCI",
+    "course_number": "238",
+    "long_title": "SPECIAL TOPICS",
+    "department_name": "Ancient Mediterranean Civil",
+    "grade_mode": "Standard Letter",
+    "language": "Taught in English",
+    "course_type": "Internship/Practicum, Laboratory, Lecture, Seminar",
+    "credit_hours": "1 TO 4",
+    "restrictions": "Must be enrolled in one of the following Level(s): Undergraduate ProfessionalVisiting UndergraduateUndergraduate",
+    "description": "Topics and credit hours may vary each semester. Contact department for current semester’s topic(s).  Repeatable for Credit."
+  },
+  {
+    "course_code": "AMCI 400",
+    "title": "AMC HONORS THESIS",
+    "department": "AMCI",
+    "course_number": "400",
+    "long_title": "DIRECTED HONORS RESEARCH",
+    "department_name": "Ancient Mediterranean Civil",
+    "grade_mode": "Standard Letter",
+    "language": "Taught in English",
+    "course_type": "Research",
+    "credit_hours": "3",
+    "restrictions": "Must be enrolled in one of the following Level(s): Undergraduate ProfessionalVisiting UndergraduateUndergraduate",
+    "description": "In this two semester course an AMC student will write an honors thesis under the direction of an AMC faculty member. Instructor Permission Required. Repeatable for Credit."
+  },
+  {
+    "course_code": "AMCI 477",
+    "title": "SPECIAL TOPICS",
+    "department": "AMCI",
+    "course_number": "477",
+    "long_title": "SPECIAL TOPICS",
+    "department_name": "Ancient Mediterranean Civil",
+    "grade_mode": "Standard Letter",
+    "language": "Taught in English",
+    "course_type": "Internship/Practicum, Laboratory, Lecture, Seminar",
+    "credit_hours": "1 TO 4",
+    "restrictions": "Must be enrolled in one of the following Level(s): Undergraduate ProfessionalVisiting UndergraduateUndergraduate",
+    "description": "Topics and credit hours may vary each semester. Contact department for current semester’s topic(s).  Repeatable for Credit."
+  }
+]

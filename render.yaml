@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: rice-catalog-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt && pip install -r backend/requirements-flask.txt
+    startCommand: cd backend && gunicorn --bind 0.0.0.0:$PORT --workers 1 --timeout 300 --log-level debug --preload app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/health 

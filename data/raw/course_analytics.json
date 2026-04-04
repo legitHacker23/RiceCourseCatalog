@@ -1,0 +1,948 @@
+{
+  "department_stats": {
+    "ITAL": {
+      "course_count": 10,
+      "avg_difficulty": 0.15666666666666665,
+      "difficulty_std": 0.05744562646538029,
+      "avg_credits": 2.6,
+      "intro_courses": 10,
+      "advanced_courses": 0
+    },
+    "AAAS": {
+      "course_count": 39,
+      "avg_difficulty": 0.1794871794871795,
+      "difficulty_std": 0.0700082960551543,
+      "avg_credits": 2.871794871794872,
+      "intro_courses": 34,
+      "advanced_courses": 0
+    },
+    "COMM": {
+      "course_count": 16,
+      "avg_difficulty": 0.21416666666666667,
+      "difficulty_std": 0.1144521976877489,
+      "avg_credits": 1.9375,
+      "intro_courses": 9,
+      "advanced_courses": 0
+    },
+    "INDS": {
+      "course_count": 1,
+      "avg_difficulty": 0.36666666666666664,
+      "difficulty_std": 0.0,
+      "avg_credits": 3.0,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "MLSC": {
+      "course_count": 108,
+      "avg_difficulty": 0.3137538580246912,
+      "difficulty_std": 0.03483193294238029,
+      "avg_credits": 2.8703703703703702,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "CHBE": {
+      "course_count": 107,
+      "avg_difficulty": 0.3071105919003114,
+      "difficulty_std": 0.06404878192606381,
+      "avg_credits": 2.5700934579439254,
+      "intro_courses": 21,
+      "advanced_courses": 0
+    },
+    "MATH": {
+      "course_count": 110,
+      "avg_difficulty": 0.29213257575757573,
+      "difficulty_std": 0.09910487525813819,
+      "avg_credits": 2.6454545454545455,
+      "intro_courses": 40,
+      "advanced_courses": 0
+    },
+    "JWST": {
+      "course_count": 14,
+      "avg_difficulty": 0.1676190476190476,
+      "difficulty_std": 0.05700777684943689,
+      "avg_credits": 2.7142857142857144,
+      "intro_courses": 14,
+      "advanced_courses": 0
+    },
+    "MGMW": {
+      "course_count": 22,
+      "avg_difficulty": 0.30776515151515144,
+      "difficulty_std": 0.01938306098787989,
+      "avg_credits": 14.909090909090908,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "HEAL": {
+      "course_count": 33,
+      "avg_difficulty": 0.2129292929292929,
+      "difficulty_std": 0.08538980760567619,
+      "avg_credits": 2.5757575757575757,
+      "intro_courses": 27,
+      "advanced_courses": 0
+    },
+    "EEPS": {
+      "course_count": 211,
+      "avg_difficulty": 0.29729462875197465,
+      "difficulty_std": 0.08667036321018505,
+      "avg_credits": 2.639810426540284,
+      "intro_courses": 52,
+      "advanced_courses": 0
+    },
+    "HIST": {
+      "course_count": 212,
+      "avg_difficulty": 0.20989976415094336,
+      "difficulty_std": 0.08833042564454249,
+      "avg_credits": 2.952830188679245,
+      "intro_courses": 150,
+      "advanced_courses": 0
+    },
+    "GREE": {
+      "course_count": 17,
+      "avg_difficulty": 0.1941176470588235,
+      "difficulty_std": 0.08367013829032728,
+      "avg_credits": 2.6470588235294117,
+      "intro_courses": 12,
+      "advanced_courses": 0
+    },
+    "MSNE": {
+      "course_count": 73,
+      "avg_difficulty": 0.30962899543378997,
+      "difficulty_std": 0.08268401603126095,
+      "avg_credits": 2.356164383561644,
+      "intro_courses": 17,
+      "advanced_courses": 0
+    },
+    "SWGS": {
+      "course_count": 52,
+      "avg_difficulty": 0.2212820512820513,
+      "difficulty_std": 0.07643821550085163,
+      "avg_credits": 2.769230769230769,
+      "intro_courses": 38,
+      "advanced_courses": 0
+    },
+    "NEUR": {
+      "course_count": 32,
+      "avg_difficulty": 0.2872786458333333,
+      "difficulty_std": 0.10328265434281203,
+      "avg_credits": 2.59375,
+      "intro_courses": 14,
+      "advanced_courses": 0
+    },
+    "AMCI": {
+      "course_count": 3,
+      "avg_difficulty": 0.2222222222222222,
+      "difficulty_std": 0.07723620976436785,
+      "avg_credits": 1.6666666666666667,
+      "intro_courses": 2,
+      "advanced_courses": 0
+    },
+    "PHIL": {
+      "course_count": 90,
+      "avg_difficulty": 0.22774999999999998,
+      "difficulty_std": 0.09888687575978353,
+      "avg_credits": 2.7333333333333334,
+      "intro_courses": 51,
+      "advanced_courses": 0
+    },
+    "RCEL": {
+      "course_count": 33,
+      "avg_difficulty": 0.27309343434343436,
+      "difficulty_std": 0.08211322907761018,
+      "avg_credits": 1.8181818181818181,
+      "intro_courses": 11,
+      "advanced_courses": 0
+    },
+    "MDIA": {
+      "course_count": 3,
+      "avg_difficulty": 0.12,
+      "difficulty_std": 0.0,
+      "avg_credits": 3.0,
+      "intro_courses": 3,
+      "advanced_courses": 0
+    },
+    "MUSI": {
+      "course_count": 298,
+      "avg_difficulty": 0.24356683445190155,
+      "difficulty_std": 0.08711748381988722,
+      "avg_credits": 2.2684563758389262,
+      "intro_courses": 144,
+      "advanced_courses": 0
+    },
+    "HURC": {
+      "course_count": 6,
+      "avg_difficulty": 0.19111111111111112,
+      "difficulty_std": 0.05370242654930921,
+      "avg_credits": 3.0,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    },
+    "EMSP": {
+      "course_count": 8,
+      "avg_difficulty": 0.22083333333333333,
+      "difficulty_std": 0.09963474962749357,
+      "avg_credits": 2.5,
+      "intro_courses": 6,
+      "advanced_courses": 0
+    },
+    "CMST": {
+      "course_count": 7,
+      "avg_difficulty": 0.1457142857142857,
+      "difficulty_std": 0.04370588154508101,
+      "avg_credits": 2.4285714285714284,
+      "intro_courses": 7,
+      "advanced_courses": 0
+    },
+    "EDES": {
+      "course_count": 8,
+      "avg_difficulty": 0.2421875,
+      "difficulty_std": 0.12951745880543158,
+      "avg_credits": 3.0,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    },
+    "ARCH": {
+      "course_count": 94,
+      "avg_difficulty": 0.28336436170212764,
+      "difficulty_std": 0.09018379167094347,
+      "avg_credits": 3.765957446808511,
+      "intro_courses": 38,
+      "advanced_courses": 0
+    },
+    "SOSC": {
+      "course_count": 21,
+      "avg_difficulty": 0.23765873015873012,
+      "difficulty_std": 0.07559786792909268,
+      "avg_credits": 2.142857142857143,
+      "intro_courses": 16,
+      "advanced_courses": 0
+    },
+    "MDHM": {
+      "course_count": 36,
+      "avg_difficulty": 0.22944444444444445,
+      "difficulty_std": 0.1104130851969822,
+      "avg_credits": 2.7777777777777777,
+      "intro_courses": 25,
+      "advanced_courses": 0
+    },
+    "MACC": {
+      "course_count": 25,
+      "avg_difficulty": 0.31931666666666664,
+      "difficulty_std": 0.03631744300837638,
+      "avg_credits": 1.84,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "LALX": {
+      "course_count": 16,
+      "avg_difficulty": 0.1858333333333333,
+      "difficulty_std": 0.07490271468155654,
+      "avg_credits": 2.625,
+      "intro_courses": 14,
+      "advanced_courses": 0
+    },
+    "LING": {
+      "course_count": 37,
+      "avg_difficulty": 0.2635022522522522,
+      "difficulty_std": 0.0934882210757716,
+      "avg_credits": 2.6486486486486487,
+      "intro_courses": 24,
+      "advanced_courses": 0
+    },
+    "MECH": {
+      "course_count": 126,
+      "avg_difficulty": 0.3368088624338623,
+      "difficulty_std": 0.08608851730439378,
+      "avg_credits": 2.6825396825396823,
+      "intro_courses": 25,
+      "advanced_courses": 0
+    },
+    "HART": {
+      "course_count": 189,
+      "avg_difficulty": 0.23935846560846558,
+      "difficulty_std": 0.09749331513010996,
+      "avg_credits": 2.984126984126984,
+      "intro_courses": 114,
+      "advanced_courses": 0
+    },
+    "PHYS": {
+      "course_count": 84,
+      "avg_difficulty": 0.266780753968254,
+      "difficulty_std": 0.1125395167073674,
+      "avg_credits": 2.5595238095238093,
+      "intro_courses": 32,
+      "advanced_courses": 0
+    },
+    "ASIA": {
+      "course_count": 76,
+      "avg_difficulty": 0.18635416666666665,
+      "difficulty_std": 0.07833870260270555,
+      "avg_credits": 2.8157894736842106,
+      "intro_courses": 67,
+      "advanced_courses": 0
+    },
+    "MEOS": {
+      "course_count": 2,
+      "avg_difficulty": 0.26937500000000003,
+      "difficulty_std": 0.149375,
+      "avg_credits": 2.0,
+      "intro_courses": 1,
+      "advanced_courses": 0
+    },
+    "GLBL": {
+      "course_count": 31,
+      "avg_difficulty": 0.3266801075268818,
+      "difficulty_std": 0.046129964336273414,
+      "avg_credits": 2.2903225806451615,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "MGMP": {
+      "course_count": 24,
+      "avg_difficulty": 0.3083506944444444,
+      "difficulty_std": 0.01687177574078604,
+      "avg_credits": 13.833333333333334,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "KINE": {
+      "course_count": 30,
+      "avg_difficulty": 0.2508472222222223,
+      "difficulty_std": 0.07149320766537162,
+      "avg_credits": 2.5,
+      "intro_courses": 27,
+      "advanced_courses": 0
+    },
+    "CSCI": {
+      "course_count": 8,
+      "avg_difficulty": 0.20984375,
+      "difficulty_std": 0.10305320259508759,
+      "avg_credits": 1.375,
+      "intro_courses": 7,
+      "advanced_courses": 0
+    },
+    "THEA": {
+      "course_count": 34,
+      "avg_difficulty": 0.19192401960784314,
+      "difficulty_std": 0.06392541344032088,
+      "avg_credits": 2.588235294117647,
+      "intro_courses": 32,
+      "advanced_courses": 0
+    },
+    "CHEM": {
+      "course_count": 104,
+      "avg_difficulty": 0.29254006410256406,
+      "difficulty_std": 0.10515906308912332,
+      "avg_credits": 2.298076923076923,
+      "intro_courses": 35,
+      "advanced_courses": 0
+    },
+    "CHIN": {
+      "course_count": 22,
+      "avg_difficulty": 0.20151515151515154,
+      "difficulty_std": 0.07106496723710908,
+      "avg_credits": 2.909090909090909,
+      "intro_courses": 20,
+      "advanced_courses": 0
+    },
+    "DSRT": {
+      "course_count": 3,
+      "avg_difficulty": 0.21999999999999997,
+      "difficulty_std": 0.1131370849898476,
+      "avg_credits": 0.3333333333333333,
+      "intro_courses": 1,
+      "advanced_courses": 0
+    },
+    "ENST": {
+      "course_count": 49,
+      "avg_difficulty": 0.23878401360544216,
+      "difficulty_std": 0.0895177079961764,
+      "avg_credits": 2.693877551020408,
+      "intro_courses": 33,
+      "advanced_courses": 0
+    },
+    "LEAD": {
+      "course_count": 16,
+      "avg_difficulty": 0.188671875,
+      "difficulty_std": 0.07818847681660669,
+      "avg_credits": 2.0625,
+      "intro_courses": 13,
+      "advanced_courses": 0
+    },
+    "SMGT": {
+      "course_count": 49,
+      "avg_difficulty": 0.29894557823129253,
+      "difficulty_std": 0.0905778369356435,
+      "avg_credits": 2.5510204081632653,
+      "intro_courses": 24,
+      "advanced_courses": 0
+    },
+    "FOTO": {
+      "course_count": 18,
+      "avg_difficulty": 0.20222222222222225,
+      "difficulty_std": 0.08110350040397626,
+      "avg_credits": 2.4444444444444446,
+      "intro_courses": 15,
+      "advanced_courses": 0
+    },
+    "MGMT": {
+      "course_count": 268,
+      "avg_difficulty": 0.33849657960199,
+      "difficulty_std": 0.060205271477110314,
+      "avg_credits": 12.126865671641792,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "GLHT": {
+      "course_count": 18,
+      "avg_difficulty": 0.2603703703703703,
+      "difficulty_std": 0.08995121372433008,
+      "avg_credits": 2.111111111111111,
+      "intro_courses": 10,
+      "advanced_courses": 0
+    },
+    "PSYC": {
+      "course_count": 156,
+      "avg_difficulty": 0.30850961538461535,
+      "difficulty_std": 0.07317787521564931,
+      "avg_credits": 2.641025641025641,
+      "intro_courses": 40,
+      "advanced_courses": 0
+    },
+    "RELI": {
+      "course_count": 199,
+      "avg_difficulty": 0.23264447236180905,
+      "difficulty_std": 0.0965607410900723,
+      "avg_credits": 2.8442211055276383,
+      "intro_courses": 115,
+      "advanced_courses": 0
+    },
+    "SOPA": {
+      "course_count": 8,
+      "avg_difficulty": 0.3165104166666666,
+      "difficulty_std": 0.1412512194975626,
+      "avg_credits": 2.5,
+      "intro_courses": 4,
+      "advanced_courses": 0
+    },
+    "GERM": {
+      "course_count": 46,
+      "avg_difficulty": 0.21246376811594203,
+      "difficulty_std": 0.08196392155114864,
+      "avg_credits": 2.739130434782609,
+      "intro_courses": 37,
+      "advanced_courses": 0
+    },
+    "UNIV": {
+      "course_count": 54,
+      "avg_difficulty": 0.17044753086419753,
+      "difficulty_std": 0.11387651953639212,
+      "avg_credits": 1.4814814814814814,
+      "intro_courses": 41,
+      "advanced_courses": 0
+    },
+    "NAVA": {
+      "course_count": 13,
+      "avg_difficulty": 0.16974358974358975,
+      "difficulty_std": 0.06695401583688905,
+      "avg_credits": 2.5384615384615383,
+      "intro_courses": 13,
+      "advanced_courses": 0
+    },
+    "BUSI": {
+      "course_count": 108,
+      "avg_difficulty": 0.305011574074074,
+      "difficulty_std": 0.08043552396629343,
+      "avg_credits": 2.1666666666666665,
+      "intro_courses": 33,
+      "advanced_courses": 0
+    },
+    "SSPB": {
+      "course_count": 9,
+      "avg_difficulty": 0.34833333333333333,
+      "difficulty_std": 0.10840026422454244,
+      "avg_credits": 1.7777777777777777,
+      "intro_courses": 1,
+      "advanced_courses": 0
+    },
+    "SPAN": {
+      "course_count": 53,
+      "avg_difficulty": 0.20176100628930818,
+      "difficulty_std": 0.06623952398825594,
+      "avg_credits": 2.8867924528301887,
+      "intro_courses": 48,
+      "advanced_courses": 0
+    },
+    "FILM": {
+      "course_count": 34,
+      "avg_difficulty": 0.1962377450980392,
+      "difficulty_std": 0.073669744557831,
+      "avg_credits": 2.9705882352941178,
+      "intro_courses": 32,
+      "advanced_courses": 0
+    },
+    "JAPA": {
+      "course_count": 11,
+      "avg_difficulty": 0.1781818181818182,
+      "difficulty_std": 0.07107207376615296,
+      "avg_credits": 2.6363636363636362,
+      "intro_courses": 11,
+      "advanced_courses": 0
+    },
+    "MDEM": {
+      "course_count": 41,
+      "avg_difficulty": 0.17691056910569106,
+      "difficulty_std": 0.07003054015899543,
+      "avg_credits": 2.7804878048780486,
+      "intro_courses": 39,
+      "advanced_courses": 0
+    },
+    "ANTH": {
+      "course_count": 217,
+      "avg_difficulty": 0.26270353302611366,
+      "difficulty_std": 0.07454289907269412,
+      "avg_credits": 2.8847926267281108,
+      "intro_courses": 103,
+      "advanced_courses": 0
+    },
+    "MUCH": {
+      "course_count": 9,
+      "avg_difficulty": 0.23999999999999996,
+      "difficulty_std": 0.08508528764034065,
+      "avg_credits": 1.8888888888888888,
+      "intro_courses": 6,
+      "advanced_courses": 0
+    },
+    "DSCI": {
+      "course_count": 12,
+      "avg_difficulty": 0.33395833333333336,
+      "difficulty_std": 0.13131540477951323,
+      "avg_credits": 3.25,
+      "intro_courses": 4,
+      "advanced_courses": 0
+    },
+    "KORE": {
+      "course_count": 15,
+      "avg_difficulty": 0.1995555555555556,
+      "difficulty_std": 0.06900205758249013,
+      "avg_credits": 2.7333333333333334,
+      "intro_courses": 15,
+      "advanced_courses": 0
+    },
+    "ARTS": {
+      "course_count": 57,
+      "avg_difficulty": 0.2164473684210526,
+      "difficulty_std": 0.07957003675024547,
+      "avg_credits": 2.6666666666666665,
+      "intro_courses": 48,
+      "advanced_courses": 0
+    },
+    "LATI": {
+      "course_count": 24,
+      "avg_difficulty": 0.18499999999999997,
+      "difficulty_std": 0.06409628174343136,
+      "avg_credits": 2.75,
+      "intro_courses": 21,
+      "advanced_courses": 0
+    },
+    "STAT": {
+      "course_count": 101,
+      "avg_difficulty": 0.3701196369636964,
+      "difficulty_std": 0.09069421812496291,
+      "avg_credits": 2.712871287128713,
+      "intro_courses": 11,
+      "advanced_courses": 1
+    },
+    "COLL": {
+      "course_count": 116,
+      "avg_difficulty": 0.09413433908045978,
+      "difficulty_std": 0.04128924432325454,
+      "avg_credits": 1.0086206896551724,
+      "intro_courses": 116,
+      "advanced_courses": 0
+    },
+    "EMBA": {
+      "course_count": 11,
+      "avg_difficulty": 0.31382575757575754,
+      "difficulty_std": 0.029600036994616143,
+      "avg_credits": 1.9090909090909092,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "LPCR": {
+      "course_count": 3,
+      "avg_difficulty": 0.16,
+      "difficulty_std": 0.0565685424949238,
+      "avg_credits": 1.3333333333333333,
+      "intro_courses": 3,
+      "advanced_courses": 0
+    },
+    "COMP": {
+      "course_count": 203,
+      "avg_difficulty": 0.3544211822660098,
+      "difficulty_std": 0.09654147880216214,
+      "avg_credits": 3.0098522167487687,
+      "intro_courses": 35,
+      "advanced_courses": 2
+    },
+    "CMOR": {
+      "course_count": 93,
+      "avg_difficulty": 0.3327464157706093,
+      "difficulty_std": 0.07273499479232838,
+      "avg_credits": 2.5913978494623655,
+      "intro_courses": 22,
+      "advanced_courses": 0
+    },
+    "EDUC": {
+      "course_count": 63,
+      "avg_difficulty": 0.28292328042328047,
+      "difficulty_std": 0.08476217156174777,
+      "avg_credits": 2.888888888888889,
+      "intro_courses": 27,
+      "advanced_courses": 0
+    },
+    "CEVE": {
+      "course_count": 130,
+      "avg_difficulty": 0.3253076923076923,
+      "difficulty_std": 0.09199618154826254,
+      "avg_credits": 2.6384615384615384,
+      "intro_courses": 39,
+      "advanced_courses": 0
+    },
+    "HEBR": {
+      "course_count": 4,
+      "avg_difficulty": 0.07,
+      "difficulty_std": 0.017320508075688777,
+      "avg_credits": 3.0,
+      "intro_courses": 4,
+      "advanced_courses": 0
+    },
+    "CLAS": {
+      "course_count": 26,
+      "avg_difficulty": 0.1474358974358974,
+      "difficulty_std": 0.07207135407979694,
+      "avg_credits": 2.8461538461538463,
+      "intro_courses": 24,
+      "advanced_courses": 0
+    },
+    "INDE": {
+      "course_count": 20,
+      "avg_difficulty": 0.34845833333333326,
+      "difficulty_std": 0.04679244582313592,
+      "avg_credits": 2.8,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "ENGI": {
+      "course_count": 44,
+      "avg_difficulty": 0.24527462121212124,
+      "difficulty_std": 0.09738366145712489,
+      "avg_credits": 1.7727272727272727,
+      "intro_courses": 26,
+      "advanced_courses": 0
+    },
+    "TIBT": {
+      "course_count": 5,
+      "avg_difficulty": 0.172,
+      "difficulty_std": 0.064,
+      "avg_credits": 2.2,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    },
+    "SOCI": {
+      "course_count": 152,
+      "avg_difficulty": 0.2708525219298245,
+      "difficulty_std": 0.08299493158448273,
+      "avg_credits": 2.7171052631578947,
+      "intro_courses": 77,
+      "advanced_courses": 0
+    },
+    "PORT": {
+      "course_count": 9,
+      "avg_difficulty": 0.19037037037037036,
+      "difficulty_std": 0.05212625803187906,
+      "avg_credits": 2.5555555555555554,
+      "intro_courses": 9,
+      "advanced_courses": 0
+    },
+    "NSCI": {
+      "course_count": 34,
+      "avg_difficulty": 0.28776960784313727,
+      "difficulty_std": 0.11144851213615439,
+      "avg_credits": 1.911764705882353,
+      "intro_courses": 9,
+      "advanced_courses": 0
+    },
+    "ASTR": {
+      "course_count": 28,
+      "avg_difficulty": 0.30693452380952385,
+      "difficulty_std": 0.1322491830118921,
+      "avg_credits": 2.5,
+      "intro_courses": 8,
+      "advanced_courses": 1
+    },
+    "ENGL": {
+      "course_count": 181,
+      "avg_difficulty": 0.21015193370165744,
+      "difficulty_std": 0.08982501412364816,
+      "avg_credits": 2.9226519337016574,
+      "intro_courses": 131,
+      "advanced_courses": 0
+    },
+    "FREN": {
+      "course_count": 61,
+      "avg_difficulty": 0.20546448087431693,
+      "difficulty_std": 0.06263792151708143,
+      "avg_credits": 2.8524590163934427,
+      "intro_courses": 58,
+      "advanced_courses": 0
+    },
+    "ELEC": {
+      "course_count": 167,
+      "avg_difficulty": 0.3417739520958084,
+      "difficulty_std": 0.07532610910605247,
+      "avg_credits": 2.8323353293413174,
+      "intro_courses": 24,
+      "advanced_courses": 0
+    },
+    "AFSC": {
+      "course_count": 11,
+      "avg_difficulty": 0.15818181818181817,
+      "difficulty_std": 0.06407640067893125,
+      "avg_credits": 2.727272727272727,
+      "intro_courses": 11,
+      "advanced_courses": 0
+    },
+    "BIOE": {
+      "course_count": 129,
+      "avg_difficulty": 0.3371770025839793,
+      "difficulty_std": 0.08123232001887816,
+      "avg_credits": 2.558139534883721,
+      "intro_courses": 20,
+      "advanced_courses": 0
+    },
+    "MILI": {
+      "course_count": 20,
+      "avg_difficulty": 0.156,
+      "difficulty_std": 0.07445804187594514,
+      "avg_credits": 2.1,
+      "intro_courses": 20,
+      "advanced_courses": 0
+    },
+    "ARAB": {
+      "course_count": 10,
+      "avg_difficulty": 0.162,
+      "difficulty_std": 0.05827520913733386,
+      "avg_credits": 2.7,
+      "intro_courses": 10,
+      "advanced_courses": 0
+    },
+    "BIOS": {
+      "course_count": 156,
+      "avg_difficulty": 0.2978178418803418,
+      "difficulty_std": 0.10485976797881272,
+      "avg_credits": 2.25,
+      "intro_courses": 57,
+      "advanced_courses": 0
+    },
+    "PJHC": {
+      "course_count": 5,
+      "avg_difficulty": 0.188,
+      "difficulty_std": 0.064,
+      "avg_credits": 2.2,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    },
+    "ARCR": {
+      "course_count": 4,
+      "avg_difficulty": 0.22499999999999998,
+      "difficulty_std": 0.0653834841531101,
+      "avg_credits": 1.5,
+      "intro_courses": 3,
+      "advanced_courses": 0
+    },
+    "FWIS": {
+      "course_count": 131,
+      "avg_difficulty": 0.09699109414758271,
+      "difficulty_std": 0.04472098290171094,
+      "avg_credits": 3.0,
+      "intro_courses": 130,
+      "advanced_courses": 0
+    },
+    "ECON": {
+      "course_count": 124,
+      "avg_difficulty": 0.32664650537634393,
+      "difficulty_std": 0.10299725109587789,
+      "avg_credits": 3.0725806451612905,
+      "intro_courses": 33,
+      "advanced_courses": 1
+    },
+    "APPL": {
+      "course_count": 6,
+      "avg_difficulty": 0.35000000000000003,
+      "difficulty_std": 0.12291219389225551,
+      "avg_credits": 1.5,
+      "intro_courses": 1,
+      "advanced_courses": 0
+    },
+    "POLI": {
+      "course_count": 181,
+      "avg_difficulty": 0.26438075506445674,
+      "difficulty_std": 0.08665778579009807,
+      "avg_credits": 2.883977900552486,
+      "intro_courses": 98,
+      "advanced_courses": 0
+    },
+    "SOPE": {
+      "course_count": 11,
+      "avg_difficulty": 0.3337121212121211,
+      "difficulty_std": 0.042656964504673614,
+      "avg_credits": 3.0,
+      "intro_courses": 0,
+      "advanced_courses": 0
+    },
+    "LPAP": {
+      "course_count": 74,
+      "avg_difficulty": 0.06845157657657659,
+      "difficulty_std": 0.01856698977692044,
+      "avg_credits": 1.0,
+      "intro_courses": 74,
+      "advanced_courses": 0
+    },
+    "EURO": {
+      "course_count": 6,
+      "avg_difficulty": 0.22666666666666666,
+      "difficulty_std": 0.14590712418826193,
+      "avg_credits": 2.3333333333333335,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    },
+    "PLST": {
+      "course_count": 18,
+      "avg_difficulty": 0.19037037037037038,
+      "difficulty_std": 0.03064912720826252,
+      "avg_credits": 2.5555555555555554,
+      "intro_courses": 18,
+      "advanced_courses": 0
+    },
+    "HUMA": {
+      "course_count": 53,
+      "avg_difficulty": 0.16571540880503144,
+      "difficulty_std": 0.09364067270913788,
+      "avg_credits": 2.6037735849056602,
+      "intro_courses": 44,
+      "advanced_courses": 0
+    },
+    "HONS": {
+      "course_count": 4,
+      "avg_difficulty": 0.2866666666666666,
+      "difficulty_std": 0.11566234381931648,
+      "avg_credits": 1.0,
+      "intro_courses": 2,
+      "advanced_courses": 0
+    },
+    "CLIC": {
+      "course_count": 5,
+      "avg_difficulty": 0.16933333333333334,
+      "difficulty_std": 0.043532873912838686,
+      "avg_credits": 1.2,
+      "intro_courses": 5,
+      "advanced_courses": 0
+    }
+  },
+  "course_count": 6358,
+  "prerequisite_chains": {
+    "AAAS 110": [],
+    "AAAS 157": [],
+    "AAAS 200": [],
+    "AAAS 204": [],
+    "AAAS 210": [],
+    "AAAS 211": [],
+    "AAAS 217": [],
+    "AAAS 223": [],
+    "AAAS 225": [],
+    "AAAS 238": []
+  },
+  "difficulty_distribution": {
+    "INTRO": 3020,
+    "INTERMEDIATE": 3333,
+    "ADVANCED": 5,
+    "GRADUATE": 0,
+    "SPECIAL": 0
+  },
+  "major_programs": {
+    "computer science": {
+      "core_courses": [
+        "COMP 140",
+        "COMP 182",
+        "COMP 215",
+        "COMP 321",
+        "COMP 382"
+      ],
+      "math_requirements": [
+        "MATH 211",
+        "MATH 212",
+        "MATH 221"
+      ],
+      "science_requirements": [
+        "PHYS 225",
+        "PHYS 226"
+      ],
+      "electives_needed": 6,
+      "total_credits": 120,
+      "distribution_requirements": {
+        "Group I": 12,
+        "Group II": 12,
+        "Group III": 12
+      }
+    },
+    "electrical engineering": {
+      "core_courses": [
+        "ELEC 220",
+        "ELEC 241",
+        "ELEC 242",
+        "ELEC 326"
+      ],
+      "math_requirements": [
+        "MATH 211",
+        "MATH 212",
+        "MATH 221"
+      ],
+      "science_requirements": [
+        "PHYS 225",
+        "PHYS 226"
+      ],
+      "electives_needed": 5,
+      "total_credits": 120,
+      "distribution_requirements": {
+        "Group I": 12,
+        "Group II": 12,
+        "Group III": 12
+      }
+    },
+    "mathematics": {
+      "core_courses": [
+        "MATH 211",
+        "MATH 212",
+        "MATH 221",
+        "MATH 355"
+      ],
+      "math_requirements": [
+        "MATH 211",
+        "MATH 212",
+        "MATH 221"
+      ],
+      "science_requirements": [
+        "PHYS 225",
+        "PHYS 226"
+      ],
+      "electives_needed": 8,
+      "total_credits": 120,
+      "distribution_requirements": {
+        "Group I": 12,
+        "Group II": 12,
+        "Group III": 12
+      }
+    }
+  },
+  "timestamp": "2025-07-14T19:55:14.198244"
+}

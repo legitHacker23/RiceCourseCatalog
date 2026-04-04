@@ -1,0 +1,73 @@
+[
+  {
+    "timestamp": "2025-07-15T00:12:18.171920",
+    "user_query": "Hello! I am an incoming freshman business major, what courses should I take in my first semester",
+    "student_profile": {
+      "major": "Business",
+      "current_year": "freshman",
+      "gpa": 3.5,
+      "completed_courses": [],
+      "career_goals": [],
+      "time_preferences": "morning"
+    },
+    "system_recommendations": [
+      "BUSI 480",
+      "CMOR 455",
+      "DSCI 101",
+      "ELEC 447",
+      "BUSI 395",
+      "COMP 447",
+      "CMOR 437",
+      "ELEC 461"
+    ],
+    "validation_results": [
+      {
+        "course": "BUSI 480",
+        "approved": false,
+        "confidence": 0.743,
+        "critique": "The recommended course, MARKETING ANALYTICS (BUSI 480), is not suitable for an incoming freshman business major due to its prerequisite requirement of BUSI 380, which the student has not completed. Additionally, the course may be too advanced for a first-semester student who is just beginning their academic journey in business.",
+        "learning_feedback": "The system should learn to prioritize course recommendations that align with the student's current academic level and prerequisites, especially for incoming freshmen."
+      },
+      {
+        "course": "CMOR 455",
+        "approved": false,
+        "confidence": 0.5,
+        "critique": "The recommended course, CMOR 455, is not suitable for an incoming freshman business major. It has significant prerequisites and is advanced in nature, which may overwhelm a student who is just starting their college journey.",
+        "learning_feedback": "The system should learn to better assess the academic level and prerequisites of courses in relation to the student's year and major, particularly for incoming freshmen who typically require foundational courses."
+      },
+      {
+        "course": "DSCI 101",
+        "approved": true,
+        "confidence": 0.716,
+        "critique": "The recommended course, DSCI 101, is a strong choice for an incoming freshman business major. It introduces essential skills in data science and programming, which are increasingly relevant in the business field. The course is designed for students without prior experience, making it accessible and appropriate for a freshman.",
+        "learning_feedback": "The system should recognize that foundational courses in data science are valuable for business majors and can enhance their skill set, especially in a data-driven job market."
+      },
+      {
+        "course": "ELEC 447",
+        "approved": false,
+        "confidence": 0.713,
+        "critique": "The recommended course, ELEC 447, is not suitable for an incoming freshman business major. It is a technical course that requires prior knowledge in electrical engineering or computer science, which the student likely does not possess. Additionally, it does not align with the core requirements for a business major.",
+        "learning_feedback": "The system should learn to prioritize course recommendations that align with the student's major and academic level, ensuring that prerequisites are considered and that the courses are relevant to the student's career goals."
+      },
+      {
+        "course": "BUSI 395",
+        "approved": false,
+        "confidence": 0.713,
+        "critique": "While BUSI 395: DATA ANALYTICS is a valuable course for business majors, it may not be the best choice for an incoming freshman who has not yet established a strong foundation in mathematics or business principles. The course's prerequisites suggest that students should have a solid understanding of calculus or higher-level math, which may be challenging for a freshman. Additionally, this course may not align with the typical introductory courses that freshmen should take to acclimate to college-level business studies.",
+        "learning_feedback": "The system should learn to recommend courses that align with the typical academic progression for freshmen, emphasizing foundational courses that prepare students for more advanced topics."
+      }
+    ],
+    "gpt_recommendations": [
+      "COMP 140",
+      "MATH 101",
+      "STAT 310",
+      "MATH 221",
+      "COMP 182"
+    ],
+    "learning_insights": [
+      "\u2705 System performed well on 1/5 recommendations",
+      "\u274c System needs improvement on 4/5 recommendations",
+      "\ud83d\ude80 GPT suggests additional courses: COMP 140, COMP 182, MATH 221"
+    ]
+  }
+]

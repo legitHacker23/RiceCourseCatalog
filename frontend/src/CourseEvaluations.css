@@ -1,0 +1,944 @@
+/* Course Evaluations Styles */
+.evaluations-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.evaluations-header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #002469 0%, #5E6062 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 36, 105, 0.3);
+}
+
+.evaluations-header h2 {
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.evaluations-header p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.evaluations-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.esther-link-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.esther-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.esther-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.esther-card h3 {
+  color: #002469;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.esther-card p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.esther-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #002469 0%, #5E6062 100%);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 36, 105, 0.3);
+  margin-bottom: 30px;
+}
+
+.esther-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 36, 105, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.esther-instructions {
+  text-align: left;
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid #002469;
+}
+
+.esther-instructions h4 {
+  color: #002469;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.esther-instructions ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.esther-instructions li {
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.video-container {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video-container h3 {
+  color: #002469;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.video-container p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.course-evaluations-video {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 700px;
+}
+
+.evaluations-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.info-card h3 {
+  color: #002469;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-card li {
+  padding: 12px 0;
+  color: #555;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.6;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.info-card li:last-child {
+  border-bottom: none;
+}
+
+.info-card li:before {
+  content: "💡";
+  position: absolute;
+  left: 0;
+  color: #002469;
+  font-size: 1.2rem;
+}
+
+.video-placeholder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.video-icon {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.video-placeholder-content h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #002469;
+  font-weight: 700;
+}
+
+.video-placeholder-content p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.video-description {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.video-description p {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.video-description ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.video-description li {
+  padding: 8px 0;
+  color: #555;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 25px;
+}
+
+.video-description li:before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: #002469;
+  font-weight: bold;
+}
+
+/* ===== MOBILE-FIRST RESPONSIVE DESIGN ===== */
+
+/* Base mobile styles (default) */
+.evaluations-container {
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.evaluations-header {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.evaluations-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.evaluations-header p {
+  font-size: 1rem;
+}
+
+.evaluations-content {
+  gap: 2rem;
+}
+
+.esther-link-section {
+  padding: 1rem;
+}
+
+.esther-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.esther-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.esther-card p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.esther-button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  margin-bottom: 1.5rem;
+}
+
+.esther-instructions {
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.esther-instructions h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.esther-instructions ol {
+  padding-left: 1.25rem;
+}
+
+.esther-instructions li {
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.video-section {
+  padding: 2rem 1rem;
+}
+
+.video-container {
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.video-container h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.video-container p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.course-evaluations-video {
+  border-radius: 8px;
+  min-height: 400px;
+}
+
+.evaluations-info {
+  padding: 1rem;
+}
+
+.info-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.info-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-card li {
+  padding: 0.75rem 0;
+  font-size: 0.95rem;
+  padding-left: 1.5rem;
+  line-height: 1.4;
+}
+
+.info-card li:before {
+  font-size: 1rem;
+  left: 0.25rem;
+}
+
+.video-placeholder-content {
+  gap: 1rem;
+}
+
+.video-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-placeholder-content h3 {
+  font-size: 1.5rem;
+}
+
+.video-placeholder-content p {
+  font-size: 1rem;
+  max-width: 100%;
+  line-height: 1.4;
+}
+
+.video-description {
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.video-description p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.video-description li {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  padding-left: 1.25rem;
+}
+
+.video-description li:before {
+  left: 0;
+}
+
+/* ===== TABLET STYLES (768px and up) ===== */
+@media (min-width: 768px) {
+  .evaluations-container {
+    padding: 1.5rem;
+  }
+  
+  .evaluations-header {
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    border-radius: 15px;
+  }
+  
+  .evaluations-header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .evaluations-header p {
+    font-size: 1.05rem;
+  }
+  
+  .evaluations-content {
+    gap: 2.5rem;
+  }
+  
+  .esther-link-section {
+    padding: 1.5rem;
+  }
+  
+  .esther-card {
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 600px;
+  }
+  
+  .esther-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .esther-card p {
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .esther-button {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .esther-instructions {
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .esther-instructions h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .esther-instructions ol {
+    padding-left: 1.5rem;
+  }
+  
+  .esther-instructions li {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+  }
+  
+  .video-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .video-container {
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 1200px;
+  }
+  
+  .video-container h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-container p {
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+  
+  .course-evaluations-video {
+    border-radius: 10px;
+    min-height: 500px;
+  }
+  
+  .evaluations-info {
+    padding: 1.5rem;
+  }
+  
+  .info-card {
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 800px;
+  }
+  
+  .info-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .info-card li {
+    padding: 1rem 0;
+    font-size: 1rem;
+    padding-left: 2rem;
+    line-height: 1.5;
+  }
+  
+  .info-card li:before {
+    font-size: 1.1rem;
+    left: 0.5rem;
+  }
+  
+  .video-placeholder-content {
+    gap: 1.5rem;
+  }
+  
+  .video-icon {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .video-placeholder-content h3 {
+    font-size: 1.8rem;
+  }
+  
+  .video-placeholder-content p {
+    font-size: 1.05rem;
+    max-width: 500px;
+    line-height: 1.5;
+  }
+  
+  .video-description {
+    margin-top: 1.5rem;
+    max-width: 500px;
+  }
+  
+  .video-description p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-description li {
+    padding: 0.6rem 0;
+    font-size: 0.95rem;
+    padding-left: 1.5rem;
+  }
+  
+  .video-description li:before {
+    left: 0.25rem;
+  }
+}
+
+/* ===== DESKTOP STYLES (1024px and up) ===== */
+@media (min-width: 1024px) {
+  .evaluations-container {
+    padding: 2rem;
+    max-width: 1400px;
+  }
+  
+  .evaluations-header {
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    border-radius: 15px;
+  }
+  
+  .evaluations-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .evaluations-header p {
+    font-size: 1.1rem;
+  }
+  
+  .evaluations-content {
+    gap: 3rem;
+  }
+  
+  .esther-link-section {
+    padding: 2rem;
+  }
+  
+  .esther-card {
+    padding: 3rem;
+    border-radius: 15px;
+    max-width: 600px;
+  }
+  
+  .esther-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .esther-card p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+  
+  .esther-button {
+    padding: 1.25rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 35px;
+    margin-bottom: 2.5rem;
+  }
+  
+  .esther-instructions {
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .esther-instructions h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .esther-instructions ol {
+    padding-left: 2rem;
+  }
+  
+  .esther-instructions li {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .video-section {
+    padding: 4rem 2rem;
+  }
+  
+  .video-container {
+    padding: 3rem;
+    border-radius: 15px;
+    max-width: 1400px;
+  }
+  
+  .video-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .video-container p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .course-evaluations-video {
+    border-radius: 10px;
+    min-height: 600px;
+  }
+  
+  .evaluations-info {
+    padding: 2rem;
+  }
+  
+  .info-card {
+    padding: 3rem;
+    border-radius: 15px;
+    max-width: 800px;
+  }
+  
+  .info-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .info-card li {
+    padding: 1.25rem 0;
+    font-size: 1.05rem;
+    padding-left: 2.5rem;
+    line-height: 1.6;
+  }
+  
+  .info-card li:before {
+    font-size: 1.2rem;
+    left: 0.75rem;
+  }
+  
+  .video-placeholder-content {
+    gap: 2rem;
+  }
+  
+  .video-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-placeholder-content h3 {
+    font-size: 2rem;
+  }
+  
+  .video-placeholder-content p {
+    font-size: 1.1rem;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+  
+  .video-description {
+    margin-top: 2rem;
+    max-width: 500px;
+  }
+  
+  .video-description p {
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .video-description li {
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    padding-left: 1.75rem;
+  }
+  
+  .video-description li:before {
+    left: 0.5rem;
+  }
+}
+
+/* ===== LARGE DESKTOP STYLES (1440px and up) ===== */
+@media (min-width: 1440px) {
+  .evaluations-container {
+    padding: 3rem;
+    max-width: 1600px;
+  }
+  
+  .evaluations-header {
+    margin-bottom: 4rem;
+    padding: 3rem;
+    border-radius: 20px;
+  }
+  
+  .evaluations-header h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .evaluations-header p {
+    font-size: 1.2rem;
+  }
+  
+  .evaluations-content {
+    gap: 4rem;
+  }
+  
+  .esther-link-section {
+    padding: 3rem;
+  }
+  
+  .esther-card {
+    padding: 4rem;
+    border-radius: 20px;
+    max-width: 700px;
+  }
+  
+  .esther-card h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .esther-card p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+  }
+  
+  .esther-button {
+    padding: 1.5rem 4rem;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    margin-bottom: 3rem;
+  }
+  
+  .esther-instructions {
+    padding: 2.5rem;
+    border-radius: 15px;
+  }
+  
+  .esther-instructions h4 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .esther-instructions ol {
+    padding-left: 2.5rem;
+  }
+  
+  .esther-instructions li {
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.7;
+  }
+  
+  .video-section {
+    padding: 5rem 3rem;
+  }
+  
+  .video-container {
+    padding: 4rem;
+    border-radius: 20px;
+    max-width: 1600px;
+  }
+  
+  .video-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-container p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .course-evaluations-video {
+    border-radius: 15px;
+    min-height: 700px;
+  }
+  
+  .evaluations-info {
+    padding: 3rem;
+  }
+  
+  .info-card {
+    padding: 4rem;
+    border-radius: 20px;
+    max-width: 900px;
+  }
+  
+  .info-card h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .info-card li {
+    padding: 1.5rem 0;
+    font-size: 1.1rem;
+    padding-left: 3rem;
+    line-height: 1.7;
+  }
+  
+  .info-card li:before {
+    font-size: 1.3rem;
+    left: 1rem;
+  }
+  
+  .video-placeholder-content {
+    gap: 2.5rem;
+  }
+  
+  .video-icon {
+    font-size: 4rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .video-placeholder-content h3 {
+    font-size: 2.2rem;
+  }
+  
+  .video-placeholder-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.7;
+  }
+  
+  .video-description {
+    margin-top: 2.5rem;
+    max-width: 600px;
+  }
+  
+  .video-description p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-description li {
+    padding: 1rem 0;
+    font-size: 1.05rem;
+    padding-left: 2rem;
+  }
+  
+  .video-description li:before {
+    left: 0.75rem;
+  }
+} 

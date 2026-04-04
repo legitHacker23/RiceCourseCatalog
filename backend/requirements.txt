@@ -1,0 +1,35 @@
+requests
+beautifulsoup4
+selenium
+pandas
+numpy
+streamlit
+scikit-learn
+pickle-mixin
+python-dateutil
+typing-extensions
+openai
+python-dotenv
+anthropic
+networkx
+matplotlib
+seaborn
+plotly
+xgboost
+lightgbm
+
+# WebSocket support
+channels==4.0.0
+channels-redis==4.1.0
+
+# ML and AI libraries
+torch
+transformers
+sentence-transformers
+
+# Vector database
+faiss-cpu
+
+# Async support
+asyncio-mqtt==0.16.1
+websockets==11.0.2
