@@ -15,6 +15,9 @@ const makeLinksClickable = (text) => {
   });
 };
 
+const hidePublicDemoAiNotice =
+  process.env.REACT_APP_HIDE_PUBLIC_DEMO_AI_NOTICE === 'true';
+
 function App() {
   const [activeTab, setActiveTab] = useState('catalog');
   const [messages, setMessages] = useState([]);
@@ -183,6 +186,13 @@ function App() {
             </div>
           )}
         </div>
+
+        {!hidePublicDemoAiNotice && (
+          <div className="demo-ai-disabled-notice" role="status">
+            AI chat is temporarily disabled in the public demo due to API usage
+            costs.
+          </div>
+        )}
 
         {error && (
           <div className="error-message">

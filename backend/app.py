@@ -38,6 +38,12 @@ except ImportError:
 # Load environment variables
 load_dotenv()
 
+
+def _env_test_mode() -> bool:
+    """Return True when TEST_MODE env var is set, forcing all OpenAI calls to be bypassed."""
+    return os.getenv('TEST_MODE', '').strip().lower() in ('1', 'true', 'yes', 'on')
+
+
 app = Flask(__name__)
 
 # Configure CORS to allow React frontend
@@ -106,6 +112,10 @@ Your expertise covers:
 - **For prerequisite questions, always state the exact prerequisites from the dataset**
 
 Always provide practical, actionable advice based on the course data available."""
+
+    if _env_test_mode():
+        print("🧪 TEST MODE (env): skipping OpenAI in get_direct_gpt_response")
+        return f"TEST MODE - Context only (no LLM call):\n\n{context}"
 
     try:
         # Configure OpenAI
@@ -720,6 +730,10 @@ Instructions:
 
 Answer:"""
 
+            if _env_test_mode():
+                print("🧪 TEST MODE (env): skipping OpenAI in get_answer")
+                return f"TEST MODE - Context only (no LLM call):\n\n{context}"
+
             # Check if OpenAI client is available
             if not self.client or not self.openai_available:
                 return "I'm sorry, but the AI assistant is currently unavailable. Please try again later or contact support if the issue persists."
@@ -854,7 +868,7 @@ def chat_message():
         message = data['message']
         advisor = data.get('advisor', 'unified')
         user_profile = data.get('user_profile', {})
-        test_mode = data.get('test_mode', False)  # New parameter for testing without OpenAI
+        test_mode = data.get('test_mode', _env_test_mode())  # Defaults to TEST_MODE env var
         
         # Measure response time
         start_time = time.time()
