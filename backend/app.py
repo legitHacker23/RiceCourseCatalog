@@ -52,7 +52,8 @@ CORS(app, origins=[
     'https://ricecatalog.onrender.com',  # Render backend
     'https://main.d138s9ngzid9pl.amplifyapp.com', # Amplify frontend
     'https://www.ricecatalog.org',  # Production frontend
-    'https://ricecatalog.org',  # Production frontend (without www)
+    'https://ricecatalog.org',
+    'https://rice-course-catalog-ktn1-73byn4186-noah-mendozas-projects.vercel.app/',  # Production frontend (without www)
 ], 
      allow_headers=['Content-Type', 'Authorization'],
      methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'])
