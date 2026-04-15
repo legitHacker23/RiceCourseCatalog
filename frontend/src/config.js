@@ -1,7 +1,7 @@
 // Configuration for the Rice Course Assistant Frontend
 const config = {
   // Backend API URL - change this to switch between environments
-  BACKEND_URL: process.env.REACT_APP_API_BASE_URL || 'https://ricecatalog.onrender.com',
+  BACKEND_URL: process.env.REACT_APP_API_BASE_URL || 'https://ricecoursecatalog.onrender.com',
   //BACKEND_URL: process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000',
 
   
