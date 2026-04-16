@@ -53,7 +53,8 @@ CORS(app, origins=[
     'https://main.d138s9ngzid9pl.amplifyapp.com', # Amplify frontend
     'https://www.ricecatalog.org',  # Production frontend
     'https://ricecatalog.org',
-    'https://rice-course-catalog-ktn1-p9kkm7en0-noah-mendozas-projects.vercel.app/',  # Production frontend (without www)
+    'https://rice-course-catalog-ktn1.vercel.app',  # Vercel production
+    'https://rice-course-catalog-ktn1-p9kkm7en0-noah-mendozas-projects.vercel.app',  # Vercel preview deploy
 ], 
      allow_headers=['Content-Type', 'Authorization'],
      methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'])
