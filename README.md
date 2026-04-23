@@ -1,5 +1,8 @@
  # 🎓 Rice University Academic Advisor
 
+ Live Demo: https://rice-course-catalog-ktn1.vercel.app/
+ Live demo available above. The chat feature is currently disabled in the public deployment due to API key restrictions, but full retrieval and recommendation pipeline is fully implemented and runs locally.
+
 A comprehensive academic advisor system for Rice University students, providing course recommendations, program guidance, and academic planning through an intuitive web interface.
 
 ## 📁 Project Structure
